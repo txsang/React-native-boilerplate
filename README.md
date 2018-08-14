@@ -23,12 +23,28 @@ Open your preferred command line tool and run follow some steps below:
 
 ````
 
-React-native-boilerplate/
+src/
 ├── assets
 ├── components
 ├── reducers
 ├── routes
 ├── App.js
+└── package.json
+
+React-native-boilerplate/
+├── src
+│   ├── assets
+│   │  ├── fonts
+│   │  ├── images
+│   │  └── style
+│   ├── components
+│   │  ├── layout
+│   │  ├── modules
+│   │  └── page
+│   ├── reducers
+│   ├── routes
+├── App.js
+├── app.json
 └── package.json
 
 ````

@@ -10,6 +10,8 @@ const sceneReducer = (state = {}, {type, scene}) => {
   }
 }
 
-export const appReducer = combineReducers({
+const appReducer = combineReducers({
   sceneReducer
 });
+
+export {appReducer}

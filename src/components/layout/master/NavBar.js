@@ -1,9 +1,9 @@
 import { Image, Platform, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import React from 'react';
 import { Actions } from 'react-native-router-flux';
-import {Global} from '../assets';
+import {Global} from '../../../assets/style';
 
-export default class CustomNavBar extends React.Component {
+export default class NavBar extends React.Component {
 
   _renderLeft() {
     return (
@@ -30,6 +30,7 @@ export default class CustomNavBar extends React.Component {
   }
 
   render() {
+    console.log(Global)
     let dinamicStyle = {};
     if (Actions.currentScene === 'action1') {
       dinamicStyle = { backgroundColor: 'red' };
