@@ -23,14 +23,6 @@ Open your preferred command line tool and run follow some steps below:
 
 ````
 
-src/
-├── assets
-├── components
-├── reducers
-├── routes
-├── App.js
-└── package.json
-
 React-native-boilerplate/
 ├── src
 │   ├── assets
