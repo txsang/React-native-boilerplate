@@ -1,16 +1,9 @@
 import { combineReducers } from 'redux';
-import { ActionConst } from 'react-native-router-flux';
-
-const sceneReducer = (state = {}, {type, scene}) => {
-  switch(type){
-    case ActionConst.FOCUS:
-      return { ...state, scene };
-    default:
-      return state;
-  }
-}
+import { Auth } from './auth'
+import { sceneReducer } from './scene-reducer'
 
 const appReducer = combineReducers({
+  Auth,
   sceneReducer
 });
 
