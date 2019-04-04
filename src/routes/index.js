@@ -4,13 +4,7 @@ import CardStackStyleInterpolator from 'react-navigation/src/views/StackView/Sta
 import routes from './routes'
 
 const Scenes = Actions.create(
-  <Stack
-    key='root'
-    transitionConfig={() => ({
-      screenInterpolator: (props) => {
-        return CardStackStyleInterpolator.forInitial
-      }
-    })}>
+  <Stack key='root'>
     {
       routes.map(item => {
         return (

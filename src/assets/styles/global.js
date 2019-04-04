@@ -10,17 +10,20 @@ const Global = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'flex-start',
-    paddingLeft: 10
+    paddingLeft: 10,
   },
   navBarRight: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'flex-end',
-    paddingRight: 10
+    paddingRight: 10,
   },
   navbarTitle: {
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  navbarText: {
+    color: '#fff'
   },
   contentFull: {
     flex: 1,

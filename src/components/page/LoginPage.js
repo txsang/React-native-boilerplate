@@ -17,7 +17,7 @@ class LoginPage extends Component {
   }
 
   componentDidUpdate() {
-    if (this.props.isAuth) {
+    if (!this.props.isAuth) {
       Actions.about_us()
     }
   }
